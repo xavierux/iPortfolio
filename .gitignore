@@ -1,0 +1,27 @@
+# Archivos y carpetas que se ignoran
+node_modules/
+build/
+dist/
+env/
+logs/
+tmp/
+*.log
+*.tmp
+*.env
+.DS_Store
+Thumbs.db
+
+# Archivos de Sass y CSS
+assets/scss/*.css
+assets/scss/*.map
+
+# Archivos de compilación de Sass
+assets/scss/*.scssc
+assets/scss/*.sassc
+
+# Archivos de vendor
+assets/vendor/bootstrap-icons/bootstrap-icons.json
+assets/vendor/isotope-layout/isotope.pkgd.js
+
+# Archivos de configuración de lenguaje
+assets/lang/*.json
