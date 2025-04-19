@@ -1,0 +1,165 @@
+{
+    "title": "Portafolio de Xavier Clemente",
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "resume": "Currículum",
+      "portfolio": "Portafolio",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "intro": "Soy",
+      "roles": "Desarrollador, Arquitecto de Soluciones, Emprendedor"
+    },
+    "about": {
+      "title": "Acerca de",
+      "description": "Profesional con amplia experiencia en desarrollo de software, gestión de proyectos y liderazgo técnico. Especializado en tecnologías modernas y metodologías ágiles.",
+      "role": "Desarrollador Backend Senior",
+      "birthday": "Cumpleaños",
+      "website": "Sitio web",
+      "phone": "Teléfono",
+      "city": "Ciudad",
+      "city_value": "Ciudad de Guatemala",
+      "age": "Edad",
+      "nationality": "Nacionalidad",
+      "nationality_value":"Español",
+      "email": "Correo",
+      "country": "Guatemala"
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "resume": {
+        "title": "Currículum",
+        "summary1": "Desarrollador Full Stack con experiencia en Java, Spring, React y Angular.",
+        "summary2": "Profesional con amplia experiencia en desarrollo de software, gestión de proyectos y liderazgo técnico. Especializado en tecnologías modernas y metodologías ágiles.",
+        "professional_experience": "Experiencia Profesional",
+        "education": "Educación",
+        "jobs": {
+            "java_full_stack_developer": "Desarrollador JAVA Full Stack",
+            "react_full_stack_developer": "Desarrollador REACT Full Stack",
+            "java_programmer_analyst": "Analista Programador JAVA",
+            "java_programmer": "Programador JAVA",
+            "junior_java_programmer": "Programador Junior JAVA",
+            "aws_course": "Curso Udemy AWS Solutions Architect Associate",
+            "cfgs_it_development": "CFGS – Desarrollo de Aplicaciones Informáticas",
+            "tech_bachelor": "Bachillerato Tecnológico"
+        },
+        "experience": {
+            "avantia": {
+                "description": {
+                  "0": "Proyecto video-IPTV para el portal de periféricos en Claro.com.gt.",
+                  "1": "Creación de nuevas pantallas en Angular y llamadas de Web-Services.",
+                  "2": "Ampliación centralizada para el call center de Claro en el proyecto CRM-Express ESAC.",
+                  "3": "Integración de seguridad JSON Web-Token en servicios web.",
+                  "4": "Gestión de base de datos Oracle y deploy en servidores Weblogic."
+                },
+                "location": "Avantia, Guatemala - En Remoto"
+            },
+            "blue_medical": {
+                "description": {
+                  "0": "Mejoras en el sistema de gestión de reparaciones para Seguros El Roble.",
+                  "1": "Diseño y desarrollo usando ReactJS, NodeJS, y ECMAScript9.",
+                  "2": "Creación de mockups en WordPress y diseño con Bootstrap.",
+                  "3": "Desarrollo de componentes en React y manejo de estado."
+                },
+                "location": "Blue Medical, Guatemala - En Remoto"
+            },
+            "itligencia": {
+                "description": {
+                  "0": "Mejoras para el sistema informático del MP Sicomp 2.",
+                  "1": "Migración de tecnologías como JSF 1.2 a 2.2 y mejoras de rendimiento.",
+                  "2": "Supervisión de 3 programadores y delegación de tareas."
+                },
+                "location": "ITLigencia, Guatemala - Presencial"
+            },
+            "sm2_baleares": {
+                "description": {
+                  "0": "Desarrollo de un motor de reglas parametrizable para Barceló Viajes.",
+                  "1": "Creación de webservices y conexiones seguras con firma electrónica.",
+                  "2": "Integración de pasarelas de pago y mejora de rendimiento con caché."
+                },
+                "location": "SM2 Baleares, España - Presencial"
+            },
+            "tenea": {
+                "description": {
+                  "0": "Creación de Web Services en Java para Hewlett Packard.",
+                  "1": "Desarrollo de servicios utilizando Hibernate, Spring, y Struts."
+                },
+                "location": "Tenea Tecnologías, España - Presencial"
+            },
+            "ibertech": {
+                "description": {
+                  "0": "Desarrollo del proyecto Zeus para Gas Natural Fenosa.",
+                  "1": "Migración de pantallas de Power Builder a Flex."
+                },
+                "location": "IBERTECH, España - Presencial"
+            },
+            "yes_sistemas": {
+                "description": {
+                  "0": "Mantenimiento de aplicaciones Java y generación de documentos PDF.",
+                  "1": "Creación de páginas web en PHP y ASP.NET."
+                },
+                "location": "YES Sistemas, España - Presencial"
+            },
+            "castinfo": {
+                "description": {
+                  "0": "Migración de aplicaciones de iPlanet a WebSphere.",
+                  "1": "Correctivos y evolutivos de aplicaciones web en Java."
+                },
+                "location": "CASTINFO, España - Presencial"
+            }
+        },
+        "education_items": {
+            "aws_course": {
+                "title": "Curso Udemy AWS Solutions Architect Associate",
+                "description": "Curso de 33 horas para la certificación como Solutions Architect Associate de AWS.",
+                "location": "Udemy.com"
+            },
+            "cfgs_it_development": {
+                "title": "CFGS – Desarrollo de Aplicaciones Informáticas",
+                "description": "Formación en desarrollo de aplicaciones informáticas.",
+                "location": "Estudios Superiores María Auxiliadora, Barcelona, España"
+            },
+            "tech_bachelor": {
+                "title": "Bachillerato Tecnológico",
+                "description": "Estudios de bachillerato con enfoque en tecnología.",
+                "location": "Salesianos Sant Vicenç dels Horts, Barcelona, España"
+            }
+        }
+    },
+    "portfolio": {
+      "title": "Proyectos",
+      "description": "Descubre mis proyectos, donde transformo ideas en soluciones innovadoras con creatividad y tecnología.",
+      "filters": {
+        "all": "Todos",
+        "app": "Aplicación",
+        "java": "Java",
+        "python": "Python",
+        "aws": "AWS"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "intro1": "¿Listo para colaborar o tienes alguna pregunta?",
+      "intro2": "¡No dudes en contactarme! Siempre estoy abierto a nuevas oportunidades, proyectos emocionantes o simplemente charlar sobre ideas. ¡Espero tu mensaje!",
+      "address": "Dirección",
+      "call_us": "Llámanos",
+      "email_us": "Escríbenos",
+      "form": { 
+          "yourName": "Tu Nombre",
+          "yourEmail": "Tu Email",
+          "subject": "Asunto",
+          "message": "Mensaje",
+          "loading": "Cargando",
+          "errorMessage": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+          "sentMessage": "Tu mensaje ha sido enviado. ¡Gracias!",
+          "sendButton": "Enviar Mensaje"
+      }
+    },
+    "footer": {
+      "copyright": "© Derechos de autor",
+      "all_rights_reserved": "Todos los derechos reservados",
+      "designed_by": "Diseñado por"
+    }
+}

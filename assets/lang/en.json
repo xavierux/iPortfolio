@@ -1,0 +1,165 @@
+{
+    "title": "Xavier Clemente's Portfolio",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "resume": "Resume",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "hero": {
+      "intro": "I'm",
+      "roles": "Sr Backend Developer, Solutions Architect, Entrepreneur"
+    },
+    "about": {
+      "title": "About",
+      "description": "Professional with extensive experience in software development, project management, and technical leadership. Specialized in modern technologies and agile methodologies.",
+      "role": "Senior Backend Developer",
+      "birthday": "Birthday",
+      "website": "Website",
+      "phone": "Phone",
+      "city": "City",
+      "city_value": "Guatemala City",
+      "age": "Age",
+      "nationality": "Nationality",
+      "nationality_value":"Spanish",
+      "email": "Email",
+      "country": "Guatemala"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "resume": {
+        "title": "Resume",
+        "summary1": "Full Stack Developer with experience in Java, Spring, React, and Angular.",
+        "summary2": "Professional with extensive experience in software development, project management, and technical leadership. Specialized in modern technologies and agile methodologies.",
+        "professional_experience": "Professional Experience",
+        "education": "Education",
+        "jobs": {
+            "java_full_stack_developer": "JAVA Full Stack Developer",
+            "react_full_stack_developer": "REACT Full Stack Developer",
+            "java_programmer_analyst": "JAVA Programmer Analyst",
+            "java_programmer": "JAVA Programmer",
+            "junior_java_programmer": "Junior JAVA Programmer",
+            "aws_course": "Udemy AWS Solutions Architect Associate Course",
+            "cfgs_it_development": "CFGS – Computer Application Development",
+            "tech_bachelor": "Technological Baccalaureate"
+        },
+        "experience": {
+            "avantia": {
+                "description": {
+                  "0": "Video-IPTV project for the peripherals portal on Claro.com.gt.",
+                  "1": "Creation of new screens in Angular and Web Services calls.",
+                  "2": "Centralized expansion for Claro's call center in the CRM-Express ESAC project.",
+                  "3": "Integration of JSON Web-Token security in web services.",
+                  "4": "Oracle database management and deployment on Weblogic servers."
+                },
+                "location": "Avantia, Guatemala - Remote"
+            },
+            "blue_medical": {
+                "description": {
+                  "0": "Improvements to the repair management system for Seguros El Roble.",
+                  "1": "Design and development using ReactJS, NodeJS, and ECMAScript9.",
+                  "2": "Creation of mockups in WordPress and design with Bootstrap.",
+                  "3": "Development of React components and state management."
+                },
+                "location": "Blue Medical, Guatemala - Remote"
+            },
+            "itligencia": {
+                "description": {
+                  "0": "Improvements to the MP Sicomp 2 computer system.",
+                  "1": "Migration of technologies such as JSF 1.2 to 2.2 and performance enhancements.",
+                  "2": "Supervision of 3 programmers and task delegation."
+                },
+                "location": "ITLigencia, Guatemala - On-site"
+            },
+            "sm2_baleares": {
+                "description": {
+                  "0": "Development of a configurable rules engine for Barceló Viajes.",
+                  "1": "Creation of web services and secure connections with electronic signatures.",
+                  "2": "Integration of payment gateways and performance improvement with caching."
+                },
+                "location": "SM2 Baleares, Spain - On-site"
+            },
+            "tenea": {
+                "description": {
+                  "0": "Creation of Web Services in Java for Hewlett Packard.",
+                  "1": "Development of services using Hibernate, Spring, and Struts."
+                },
+                "location": "Tenea Tecnologías, Spain - On-site"
+            },
+            "ibertech": {
+                "description": {
+                  "0": "Development of the Zeus project for Gas Natural Fenosa.",
+                  "1": "Migration of screens from Power Builder to Flex."
+                },
+                "location": "IBERTECH, Spain - On-site"
+            },
+            "yes_sistemas": {
+                "description": {
+                  "0": "Maintenance of Java applications and PDF document generation.",
+                  "1": "Creation of web pages in PHP and ASP.NET."
+                },
+                "location": "YES Sistemas, Spain - On-site"
+            },
+            "castinfo": {
+                "description": {
+                  "0": "Migration of applications from iPlanet to WebSphere.",
+                  "1": "Corrective and evolutionary maintenance of Java web applications."
+                },
+                "location": "CASTINFO, Spain - On-site"
+            }
+        },
+        "education_items": {
+            "aws_course": {
+                "title": "Udemy AWS Solutions Architect Associate Course",
+                "description": "33-hour course for AWS Solutions Architect Associate certification.",
+                "location": "Udemy.com"
+            },
+            "cfgs_it_development": {
+                "title": "CFGS – Computer Application Development",
+                "description": "Training in computer application development.",
+                "location": "Estudios Superiores María Auxiliadora, Barcelona, Spain"
+            },
+            "tech_bachelor": {
+                "title": "Technological Baccalaureate",
+                "description": "Baccalaureate studies with a focus on technology.",
+                "location": "Salesianos Sant Vicenç dels Horts, Barcelona, Spain"
+            }
+        }   
+    },
+    "portfolio": {
+      "title": "Projects",
+      "description": "Explore my projects, where I turn ideas into innovative solutions with creativity and technology.",
+      "filters": {
+        "all": "All",
+        "app": "App",
+        "java": "Java",
+        "python": "Python",
+        "aws": "AWS"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "intro1": "Ready to collaborate or have a question?",
+      "intro2": "Feel free to reach out! I'm always open to new opportunities, exciting projects, or just chatting about ideas. Looking forward to hearing from you!",
+      "address": "Address",
+      "call_us": "Call Us",
+      "email_us": "Email Us",
+      "form": {  
+          "yourName": "Your Name",
+          "yourEmail": "Your Email",
+          "subject": "Subject",
+          "message": "Message",
+          "loading": "Loading",
+          "errorMessage": "Error sending message. Please try again.", /* Mensaje de error genérico */
+          "sentMessage": "Your message has been sent. Thank you!",
+          "sendButton": "Send Message"
+      }
+    },
+    "footer": {
+      "copyright": "© Copyright",
+      "all_rights_reserved": "All Rights Reserved",
+      "designed_by": "Designed by"
+    }
+  }

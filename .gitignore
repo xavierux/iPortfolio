@@ -23,5 +23,5 @@ assets/scss/*.sassc
 assets/vendor/bootstrap-icons/bootstrap-icons.json
 assets/vendor/isotope-layout/isotope.pkgd.js
 
-# Archivos de configuración de lenguaje
-assets/lang/*.json
+# Configuraciones IDEs
+.vscode
