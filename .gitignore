@@ -25,3 +25,6 @@ assets/vendor/isotope-layout/isotope.pkgd.js
 
 # Configuraciones IDEs
 .vscode
+
+# Excluidos para deploy en aws
+.git
