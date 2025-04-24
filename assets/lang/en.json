@@ -152,7 +152,7 @@
           "subject": "Subject",
           "message": "Message",
           "loading": "Loading",
-          "errorMessage": "Error sending message. Please try again.", /* Mensaje de error genérico */
+          "errorMessage": "Error sending message. Please try again.", 
           "sentMessage": "Your message has been sent. Thank you!",
           "sendButton": "Send Message"
       }
