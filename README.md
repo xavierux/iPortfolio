@@ -149,9 +149,9 @@ Additional code and modifications by Xavier Clemente are licensed under [MIT Lic
 ## Contact
 
 For questions, collaboration opportunities, or feedback, contact Xavier Clemente:
-- **Email**: [xavi@xvclemente.com](mailto:xavi@xvclemente.com)
+- **Email**: [xvclemente@gmail.com](mailto:xvclemente@gmail.com)
 - **Website**: [www.xvclemente.com](https://www.xvclemente.com)
-- **LinkedIn**: [linkedin.com/in/xavier-clemente](https://linkedin.com/in/xavier-clemente)
+- **LinkedIn**: [linkedin.com/in/xvclemente](https://linkedin.com/in/xvclemente)
 
 ---
 
