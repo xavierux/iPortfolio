@@ -83,8 +83,7 @@
    * @param {object} formDataObject - El objeto JavaScript con los datos del formulario.
    */
   function submit_to_lambda(thisForm, formDataObject) {
-    const apiUrl = 'URL_DE_TU_API_GATEWAY_ENDPOINT/contact';
-    // Ejemplo: const apiUrl = 'https://a1b2c3d4e5.execute-api.us-east-1.amazonaws.com/contact';
+    const apiUrl = 'https://6ifc32qn7i.execute-api.us-east-1.amazonaws.com/contact';
 
     let loading = thisForm.querySelector('.loading');
     let errorMessage = thisForm.querySelector('.error-message');
