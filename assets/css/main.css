@@ -64,6 +64,8 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  margin: 0; /* Asegura que no haya márgenes por defecto */
+  padding: 0; /* Asegura que no haya padding por defecto */
 }
 
 a {
@@ -144,7 +146,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background: var(--nav-mobile-background-color); /* Fondo oscuro para el header */
   position: fixed;
   top: 0;
   left: 0;
@@ -205,22 +207,60 @@ h6 {
   background: var(--accent-color);
 }
 
-@media (min-width: 1200px) {
+/* Ajustes para el placeholder del header */
+#header-placeholder {
+  display: block;
+  width: 300px;
+  height: 0;
+  position: relative;
+}
 
-  .header~main,
-  .header~#footer {
-    margin-left: 300px;
+/* Estilos base para el main */
+.main {
+  min-height: 100vh; /* Asegura que el main ocupe al menos toda la altura de la ventana */
+}
+
+/* Estilos para escritorio (≥1200px) */
+@media (min-width: 1200px) {
+  .main {
+    margin-left: 300px; /* Aplica el margen directamente al main */
+  }
+
+  #footer {
+    margin-left: 300px; /* Aplica el margen directamente al footer */
+  }
+
+  .header-toggle {
+    display: none; /* Oculta el botón de toggle en escritorio */
+  }
+
+  .section .container:not(#hero) {
+    padding-left: 32px; /* 12px (Bootstrap) + 20px (adicional) = 32px */
   }
 }
 
+/* Estilos para móviles (<1200px) */
 @media (max-width: 1199px) {
   .header {
     left: -100%;
+    width: 250px; /* Reduce el ancho en móviles */
+    background: var(--nav-mobile-background-color);
+    z-index: 9998; /* Debajo del botón de toggle */
   }
-}
 
-.header.header-show {
-  left: 0;
+  .header.header-show {
+    left: 0;
+  }
+
+  .main {
+    margin-left: 0; /* Sin margen en móviles */
+    width: 100%; /* Ocupa todo el ancho */
+  }
+
+  #footer {
+    margin-left: 0; /* Sin margen en móviles */
+    width: 100%; /* Ocupa todo el ancho */
+  }
 }
 
 .header .header-toggle {

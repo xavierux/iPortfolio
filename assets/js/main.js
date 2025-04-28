@@ -10,18 +10,6 @@
   "use strict";
 
   /**
-   * Header toggle
-   */
-  const headerToggleBtn = document.querySelector('.header-toggle');
-
-  function headerToggle() {
-    document.querySelector('#header').classList.toggle('header-show');
-    headerToggleBtn.classList.toggle('bi-list');
-    headerToggleBtn.classList.toggle('bi-x');
-  }
-  headerToggleBtn.addEventListener('click', headerToggle);
-
-  /**
    * Hide mobile nav on same-page/hash links
    */
   document.querySelectorAll('#navmenu a').forEach(navmenu => {
@@ -92,18 +80,35 @@
   /**
    * Init typed.js
    */
-  const selectTyped = document.querySelector('.typed');
-  if (selectTyped) {
-    let typed_strings = selectTyped.getAttribute('data-typed-items');
-    typed_strings = typed_strings.split(',');
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
+  function initializeTyped() {
+    const typedElement = document.querySelector(".typed");
+    if (typedElement && typeof Typed !== "undefined") {
+      // Destroy any existing Typed instance to avoid duplicates
+      if (typedElement.typedInstance) {
+        typedElement.typedInstance.destroy();
+      }
+      // Get the items and replace underscores with spaces
+      const items = typedElement
+        .getAttribute("data-typed-items")
+        .split(",")
+        .map((item) => item.trim().replace(/_/g, " "));
+      // Initialize Typed.js
+      typedElement.typedInstance = new Typed(".typed", {
+        strings: items,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000,
+        startDelay: 500,
+        loop: true,
+      });
+    }
   }
+
+  // Initialize Typed.js when the page loads
+  document.addEventListener("DOMContentLoaded", initializeTyped);
+
+  // Reinitialize Typed.js when the language changes
+  document.addEventListener("typedItemsUpdated", initializeTyped);
 
   /**
    * Initiate Pure Counter
@@ -225,5 +230,48 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const headerPlaceholder = document.getElementById('header-placeholder');
+  
+    if (headerPlaceholder) {
+      const headerPath = '/views/header.html';
+  
+      fetch(headerPath)
+        .then(response => {
+          if (response.ok) {
+            return response.text();
+          }
+          throw new Error('Network response was not ok loading header.');
+        })
+        .then(html => {
+          headerPlaceholder.innerHTML = html;
+  
+          if (typeof updateTranslations === 'function' && typeof currentLang !== 'undefined') {
+            updateTranslations(currentLang);
+          }
+  
+          const headerToggleBtn = document.querySelector('.header-toggle');
+          if (headerToggleBtn) {
+            function headerToggle() {
+              document.querySelector('#header').classList.toggle('header-show');
+              headerToggleBtn.classList.toggle('bi-list');
+              headerToggleBtn.classList.toggle('bi-x');
+            }
+            headerToggleBtn.addEventListener('click', headerToggle);
+          } else {
+            console.error('Header toggle button not found after loading header.');
+          }
+  
+          console.log('Header loaded successfully from views/header.html.');
+        })
+        .catch(error => {
+          console.error('Error loading header:', error);
+          headerPlaceholder.innerHTML = '<p>Error loading header content.</p>';
+        });
+    } else {
+      console.log("Header placeholder not found on this page.");
+    }
+  });
 
 })();
