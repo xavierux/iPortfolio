@@ -26,12 +26,10 @@ iPortfolio/
 │   ├── vendor/               # Vendor libraries (Bootstrap, AOS, Swiper, etc.)
 │   └── scss/                 # Sass source files (excluded from deployment)
 ├── forms/                    # Form-related files (not detailed in provided files)
+├── views/                    # HTML templates
 ├── .gitignore                # Git ignore patterns (node_modules, .git, .vscode, etc.)
 ├── deploy.ps1                # PowerShell script for deploying to S3
 ├── index.html                # Main portfolio page
-├── portfolio-details.html    # Portfolio details page
-├── service-details.html      # Service details page
-├── starter-page.html         # Starter page
 └── README.md                 # Project documentation
 ```
 
@@ -82,7 +80,7 @@ The site is deployed as a static website on an AWS S3 bucket, with CloudFront fo
    ```powershell
    .\deploy.ps1
    ```
-   - The script uses `aws s3 sync` to upload files to the S3 bucket, excluding patterns from `.gitignore` (e.g., `.git`, `node_modules`, `.vscode`) and specific files (`deploy.ps1`, `deploy.sh`, `.gitignore`, `indexOrigin.html`).
+   - The script uses `aws s3 sync` to upload files to the S3 bucket, excluding patterns from `.gitignore` (e.g., `.git`, `node_modules`, `.vscode`) and specific files (e.g.,`.gitignore`).
    - The `--delete` flag ensures that files no longer in the local directory are removed from the bucket.
 
 3. **Verify the Bucket**:
@@ -91,14 +89,20 @@ The site is deployed as a static website on an AWS S3 bucket, with CloudFront fo
    ```
    Expected files:
    - `index.html`
-   - `portfolio-details.html`
-   - `service-details.html`
-   - `starter-page.html`
+   - `README.md`
+   - `deploy.ps1`
    - `assets/*`
    - `forms/*`
+   - `views/*`
 
 4. **Access the Site**:
-   - Use the S3 website endpoint (e.g., `http://iportfolio-static-site-dev-92c7c0c2.s3-website-us-east-1.amazonaws.com`) or the CloudFront distribution URL.
+   - Use node.js http server: 
+     ```
+     npm install -g http-server
+     http-server
+     ```
+     Open http://localhost:8080/
+   - Use the CloudFront distribution URL https://d345fgvqskm7oo.cloudfront.net/
    - If using a custom domain, configure Route 53 to point to CloudFront.
 
 ### Infrastructure
