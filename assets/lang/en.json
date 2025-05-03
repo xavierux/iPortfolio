@@ -137,6 +137,36 @@
         "java": "Java",
         "python": "Python",
         "aws": "AWS"
+      },
+      "web_portfolio_details": {
+        "infoTitle": "Project information",
+        "build": {
+          "pageTitle": "Portfolio Build Details",
+          "breadcrumb": "Portfolio Build Details",
+          "altSite": "Portfolio Screenshot",
+          "altArch": "AWS Architecture Diagram",
+          "altStructure": "Project File Structure",
+          "altConsole": "AWS Console Screenshot",
+          "categoryLabel": "Category",
+          "categoryValue": "Cloud & Web Development / Serverless",
+          "clientLabel": "Client",
+          "clientValue": "Personal Project",
+          "dateLabel": "Project Date",
+          "dateValue": "April, 2025",
+          "urlLabel": "Project URL",
+          "repoFrontendLabel": "Frontend Repo (App)",
+          "repoInfraLabel": "Infra Repo (Terraform)",
+          "title": "Building a Serverless Portfolio on AWS with Terraform",
+          "descObjective": "The main goal was to create a modern, fast, secure, scalable, and cost-effective personal portfolio, leveraging AWS serverless services and managed as Infrastructure as Code (IaC).",
+          "frontendTitle": "Frontend",
+          "descFrontend": "Based on the iPortfolio template (BootstrapMade) using Bootstrap 5, HTML, CSS, and JavaScript. Features include responsive design, JavaScript-based i18n for multi-language support, dynamic loading of the shared header, and API-driven contact form submission. Hosted as a static website on AWS S3. Deployment is currently manual via `aws s3 sync`, with CI/CD automation planned as a next step.",
+          "backendTitle": "Backend (Contact API)",
+          "descBackend": "A serverless RESTful API handles contact form submissions. Built with AWS API Gateway (HTTP API) triggering an AWS Lambda function written in Python. The Lambda function validates the input data and uses AWS SES (Simple Email Service) to send email notifications. This demonstrates frontend-backend integration in a serverless context.",
+          "infraTitle": "Infrastructure & Deployment",
+          "descInfra": "The entire AWS infrastructure (S3, CloudFront, OAC, Lambda, API Gateway, IAM Roles/Policies, SES Identity/Permissions) is defined and managed using Terraform, promoting consistency and version control (IaC). The infrastructure code resides in a separate repository from the application code, following best practices for separation of concerns. CloudFront provides CDN caching, HTTPS, and secure access to the private S3 bucket via Origin Access Control (OAC).",
+          "learningsTitle": "Key Learnings & Challenges",
+          "descLearnings": "This project involved learning and overcoming challenges related to configuring CloudFront OAC, correctly scoping IAM permissions for Lambda and SES, debugging serverless functions using CloudWatch Logs, and managing infrastructure state with Terraform. It served as practical experience in building and deploying a full-stack serverless application on AWS."
+        }
       }
     },
     "contact": {

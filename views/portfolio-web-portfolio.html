@@ -4,36 +4,25 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title data-i18n="portfolio.web_portfolio_details.build.pageTitle">Portfolio Build Details</title>
+  <meta content="Details about how the Xavier Clemente portfolio website was built using AWS serverless technologies and Terraform." name="description">
+  <meta content="AWS, Serverless, Terraform, Portfolio, CloudFront, S3, Lambda, API Gateway, SES, Infrastructure as Code, Frontend" name="keywords">
 
-  <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="portfolio-details-page">
@@ -42,20 +31,17 @@
 
   <main class="main">
 
-    <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio Website Build Details</h1>
+        <h1 class="mb-2 mb-lg-0" data-i18n="portfolio.web_portfolio_details.build.pageTitle">Portfolio Build Details</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="/index.html">Home</a></li>
-            <li class="current" data-i18n="portfolio.details.build.breadcrumb">Detalles Construcción Portafolio</li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li class="current" data-i18n="portfolio.web_portfolio_details.build.breadcrumb">Portfolio Build Details</li>
           </ol>
         </nav>
       </div>
-    </div><!-- End Page Title -->
-
-    <!-- Portfolio Details Section -->
+    </div>
     <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -84,19 +70,19 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/app-iportafolio1.png" alt="">
+                  <img src="../assets/img/portfolio/app-iportafolio1.png" alt="Portfolio Screenshot" data-i18n="[alt]portfolio.web_portfolio_details.build.altSite">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/arq.png" alt="">
+                  <img src="../assets/img/portfolio/arq.png" alt="AWS Architecture Diagram" data-i18n="[alt]portfolio.web_portfolio_details.build.altArch">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/file-structure.png" alt="">
+                   <img src="../assets/img/portfolio/file-structure.png" alt="Project File Structure" data-i18n="[alt]portfolio.web_portfolio_details.build.altStructure">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/aws-panel.png" alt="">
+                   <img src="../assets/img/portfolio/aws-panel.png" alt="AWS Console Screenshot" data-i18n="[alt]portfolio.web_portfolio_details.build.altConsole">
                 </div>
 
               </div>
@@ -106,100 +92,67 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3 data-i18n="portfolio.details.infoTitle">Project information</h3>
+              <h3 data-i18n="portfolio.web_portfolio_details.infoTitle">Project information</h3>
               <ul>
-                <li data-i18n="portfolio.details.build.category"><strong>Category</strong>: Web & Cloud Development / Serverless</li>
-                <li data-i18n="portfolio.details.build.client"><strong>Client</strong>: Personal Project</li>
-                <li data-i18n="portfolio.details.build.date"><strong>Project date</strong>: April, 2025</li>
-                <li><strong>Project URL</strong>: <a href="#">https://d345fgvqskm7oo.cloudfront.net/</a></li>
-                <li data-i18n="portfolio.details.build.repoFrontendLabel"><strong>Repo Frontend (App)</strong>: <a href="https://github.com/xavierux/iPortfolio" target="_blank">github.com/xavierux/iPortfolio</a></li>
-                <li data-i18n="portfolio.details.build.repoInfraLabel"><strong>Repo Infra (Terraform)</strong>: <a href="https://github.com/xavierux/iPortfolio-Infra" target="_blank">github.com/xavierux/iPortfolio-Infra</a></li>
+                <li><strong data-i18n="portfolio.web_portfolio_details.build.categoryLabel">Category</strong>: <span data-i18n="portfolio.web_portfolio_details.build.categoryValue">Cloud & Web Development / Serverless</span></li>
+                <li><strong data-i18n="portfolio.web_portfolio_details.build.clientLabel">Client</strong>: <span data-i18n="portfolio.web_portfolio_details.build.clientValue">Personal Project</span></li>
+                <li><strong data-i18n="portfolio.web_portfolio_details.build.dateLabel">Project date</strong>: <span data-i18n="portfolio.web_portfolio_details.build.dateValue">April, 2025</span></li>
+                <li><strong data-i18n="portfolio.web_portfolio_details.build.urlLabel">Project URL</strong>: <a href="https://d345fgvqskm7oo.cloudfront.net/" target="_blank">Live Site</a></li>
+                <li><strong data-i18n="portfolio.web_portfolio_details.build.repoFrontendLabel">Frontend Repo (App)</strong>: <a href="https://github.com/xavierux/iPortfolio" target="_blank">github.com/xavierux/iPortfolio</a></li>
+                <li><strong data-i18n="portfolio.web_portfolio_details.build.repoInfraLabel">Infra Repo (Terraform)</strong>: <a href="https://github.com/xavierux/iPortfolio-Infra" target="_blank">github.com/xavierux/iPortfolio-Infra</a></li>
               </ul>
             </div>
           </div>
+
           <div class="col-lg-12">
-            <section class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <header class="section-header">
-                <h2 class="display-4 fw-bold mb-4">Construyendo un Portafolio Serverless en AWS con Terraform</h2>
-                <p class="lead text-muted">
-                  El objetivo principal fue crear un portafolio personal moderno, rápido, seguro, escalable y eficiente en costos, utilizando servicios serverless de AWS y gestionado como Infraestructura como Código (IaC).
-                </p>
-              </header>
-          
-              <article class="portfolio-details mt-4">
-                <h3 class="h4 fw-semibold text-primary">Frontend</h3>
-                <ul class="list-group list-group-flush mb-4">
-                  <li class="list-group-item"><strong>Base:</strong> Plantilla iPortfolio (BootstrapMade) con Bootstrap 5.</li>
-                  <li class="list-group-item"><strong>Tecnologías:</strong> HTML, CSS, JavaScript.</li>
-                  <li class="list-group-item">
-                    <strong>Características:</strong>
-                    <ul class="list-unstyled ms-3">
-                      <li>✔ Diseño responsive</li>
-                      <li>✔ Internacionalización (i18n) con JavaScript</li>
-                      <li>✔ Carga dinámica del header compartido</li>
-                      <li>✔ Envío de formulario de contacto vía API</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item"><strong>Despliegue:</strong> Hosting estático en AWS S3. Actualmente manual con aws s3 sync. Próximo paso: automatización con CI/CD (GitHub Actions o AWS CodePipeline).</li>
-                  <li class="list-group-item"><strong>Repositorio:</strong> <a href="https://github.com/xavierux/iPortfolio" target="_blank" class="text-decoration-none">github.com/xavierux/iPortfolio</a></li>
-                </ul>
-          
-                <h3 class="h4 fw-semibold text-primary">Infraestructura y Backend</h3>
-                <ul class="list-group list-group-flush mb-4">
-                  <li class="list-group-item"><strong>Cloud:</strong> AWS.</li>
-                  <li class="list-group-item"><strong>Arquitectura Backend:</strong> API RESTful serverless para gestionar el formulario de contacto.</li>
-                  <li class="list-group-item"><strong>Servicios AWS:</strong> API Gateway (HTTP API), AWS Lambda, AWS SES.</li>
-                  <li class="list-group-item"><strong>Lenguaje Lambda:</strong> Python.</li>
-                  <li class="list-group-item"><strong>Funcionamiento Backend:</strong> Recibe datos JSON del frontend, valida, compone y envía emails mediante SES.</li>
-                  <li class="list-group-item"><strong>IaC:</strong> Terraform para definir y gestionar recursos AWS (S3, CloudFront, OAC, Lambda, API Gateway, IAM Roles/Políticas, SES Identity/Permissions).</li>
-                  <li class="list-group-item">
-                    <strong>CDN y Seguridad:</strong>
-                    <ul class="list-unstyled ms-3">
-                      <li>✔ CloudFront para distribución global</li>
-                      <li>✔ HTTPS automático con certificado por defecto</li>
-                      <li>✔ Acceso seguro a S3 mediante Origin Access Control (OAC)</li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item"><strong>Repositorio:</strong> <a href="https://github.com/xavierux/iPortfolio-Infra" target="_blank" class="text-decoration-none">github.com/xavierux/iPortfolio-Infra</a></li>
-                </ul>
-              </article>
-            </section>
+
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2 data-i18n="portfolio.web_portfolio_details.build.title">Building a Serverless Portfolio on AWS with Terraform</h2>
+              <p data-i18n="portfolio.web_portfolio_details.build.descObjective">
+                The main goal was to create a modern, fast, secure, scalable, and cost-effective personal portfolio, leveraging AWS serverless services and managed as Infrastructure as Code (IaC).
+              </p>
+              <h3 data-i18n="portfolio.web_portfolio_details.build.frontendTitle">Frontend</h3>
+              <p data-i18n="portfolio.web_portfolio_details.build.descFrontend">
+                Based on the iPortfolio template (BootstrapMade) using Bootstrap 5, HTML, CSS, and JavaScript. Features include responsive design, JavaScript-based i18n for multi-language support, dynamic loading of the shared header, and API-driven contact form submission. Hosted as a static website on AWS S3. Deployment is currently manual via `aws s3 sync`, with CI/CD automation planned as a next step.
+              </p>
+              <h3 data-i18n="portfolio.web_portfolio_details.build.backendTitle">Backend (Contact API)</h3>
+              <p data-i18n="portfolio.web_portfolio_details.build.descBackend">
+                A serverless RESTful API handles contact form submissions. Built with AWS API Gateway (HTTP API) triggering an AWS Lambda function written in Python. The Lambda function validates the input data and uses AWS SES (Simple Email Service) to send email notifications. This demonstrates frontend-backend integration in a serverless context.
+              </p>
+              <h3 data-i18n="portfolio.web_portfolio_details.build.infraTitle">Infrastructure & Deployment</h3>
+              <p data-i18n="portfolio.web_portfolio_details.build.descInfra">
+                The entire AWS infrastructure (S3, CloudFront, OAC, Lambda, API Gateway, IAM Roles/Policies, SES Identity/Permissions) is defined and managed using Terraform, promoting consistency and version control (IaC). The infrastructure code resides in a separate repository from the application code, following best practices for separation of concerns. CloudFront provides CDN caching, HTTPS, and secure access to the private S3 bucket via Origin Access Control (OAC).
+              </p>
+               <h3 data-i18n="portfolio.web_portfolio_details.build.learningsTitle">Key Learnings & Challenges</h3>
+               <p data-i18n="portfolio.web_portfolio_details.build.descLearnings">
+                This project involved learning and overcoming challenges related to configuring CloudFront OAC, correctly scoping IAM permissions for Lambda and SES, debugging serverless functions using CloudWatch Logs, and managing infrastructure state with Terraform. It served as practical experience in building and deploying a full-stack serverless application on AWS.
+               </p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
-
+    </section>
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
-
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+        <p><span data-i18n="footer.copyright">© Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span data-i18n="footer.all_rights_reserved">All Rights Reserved</span></p>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-
   </footer>
 
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/vendor/php-email-form/validate.js"></script>
   <script src="../assets/vendor/aos/aos.js"></script>
   <script src="../assets/vendor/typed.js/typed.umd.js"></script>
   <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -209,9 +162,8 @@
   <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>
-
-</body>
+  <script src="../assets/js/include-html.js"></script> <script src="../assets/js/i18n.js"></script>
+   <script src="../assets/js/contact-form-lambda.js"></script> </body>
 
 </html>
