@@ -165,7 +165,9 @@
           "infraTitle": "Infraestructura y Despliegue",
           "descInfra": "Toda la infraestructura de AWS (S3, CloudFront, OAC, Lambda, API Gateway, Roles/Políticas IAM, Identidad/Permisos SES) se define y gestiona usando Terraform, promoviendo la consistencia y el control de versiones (IaC). El código de infraestructura reside en un repositorio separado del código de la aplicación, siguiendo las mejores prácticas para la separación de responsabilidades. CloudFront proporciona caché CDN, HTTPS y acceso seguro al bucket S3 privado mediante Origin Access Control (OAC).",
           "learningsTitle": "Aprendizajes Clave y Desafíos",
-          "descLearnings": "Este proyecto implicó aprender y superar desafíos relacionados con la configuración de CloudFront OAC, el alcance correcto de los permisos de IAM para Lambda y SES, la depuración de funciones serverless usando CloudWatch Logs y la gestión del estado de la infraestructura con Terraform. Sirvió como experiencia práctica en la construcción y despliegue de una aplicación serverless full-stack en AWS."
+          "descLearnings": "Este proyecto implicó aprender y superar desafíos relacionados con la configuración de CloudFront OAC, el alcance correcto de los permisos de IAM para Lambda y SES, la depuración de funciones serverless usando CloudWatch Logs y la gestión del estado de la infraestructura con Terraform. Sirvió como experiencia práctica en la construcción y despliegue de una aplicación serverless full-stack en AWS.",
+          "wikiAppLabel": "Wiki del Proyecto",
+          "wikiInfraLabel": "Wiki de Infraestructura"
         }
       }
     },
