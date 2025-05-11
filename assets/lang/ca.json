@@ -168,7 +168,9 @@
           "descLearnings": "Aquest projecte va implicar aprendre i superar reptes relacionats amb la configuració de CloudFront OAC, l’abast correcte dels permisos d’IAM per a Lambda i SES, la depuració de funcions serverless usant CloudWatch Logs i la gestió de l’estat de la infraestructura amb Terraform. Va servir com a experiència pràctica en la construcció i desplegament d’una aplicació serverless full-stack a AWS.",
           "wikiAppLabel": "Wiki del Projecte",
           "wikiInfraLabel": "Wiki d’Infraestructura"
-        }
+        },
+        "projectStackLabel": "Tecnologies aplicades:",
+        "projectStackValue": "HTML, JavaScript, CSS, Bootstrap, Python, Terraform, AWS CloudFront, AWS API Gateway, AWS S3, AWS Route 53, AWS Lambda, AWS SES"
       },
       "webPortfolio": {
           "title": "Portafoli Web",

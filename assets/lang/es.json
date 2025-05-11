@@ -168,7 +168,9 @@
           "descLearnings": "Este proyecto implicó aprender y superar desafíos relacionados con la configuración de CloudFront OAC, el alcance correcto de los permisos de IAM para Lambda y SES, la depuración de funciones serverless usando CloudWatch Logs y la gestión del estado de la infraestructura con Terraform. Sirvió como experiencia práctica en la construcción y despliegue de una aplicación serverless full-stack en AWS.",
           "wikiAppLabel": "Wiki del Proyecto",
           "wikiInfraLabel": "Wiki de Infraestructura"
-        }
+        },
+        "projectStackLabel": "Tecnologías usadas:",
+        "projectStackValue": "HTML, JavaScript, CSS, Bootstrap, Python, Terraform, AWS CloudFront, AWS API Gateway, AWS S3, AWS Route 53, AWS Lambda, AWS SES"
       },
       "webPortfolio": {
         "title": "Portafolio Web",
