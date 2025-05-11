@@ -1,0 +1,201 @@
+{
+    "title": "Portafoli de Xavier Clemente",
+    "nav": {
+      "home": "Inici",
+      "about": "Sobre mi",
+      "resume": "Currículum",
+      "portfolio": "Portafoli",
+      "contact": "Contacte"
+    },
+    "hero": {
+      "intro": "Sóc",
+      "roles": "Programador, Arquitecte de Solucions, Emprenedor"
+    },
+    "about": {
+      "title": "Sobre mi",
+      "description": "Professional amb àmplia experiència en desenvolupament de programari, gestió de projectes i lideratge tècnic. Especialitzat en tecnologies modernes i metodologies àgils.",
+      "role": "Programador FullStack",
+      "birthday": "Aniversari",
+      "website": "Lloc web",
+      "phone": "Telèfon",
+      "city": "Ciutat",
+      "city_value": "Ciutat de Guatemala",
+      "age": "Edat",
+      "nationality": "Nacionalitat",
+      "nationality_value": "Espanyol",
+      "email": "Correu",
+      "country": "País"
+    },
+    "skills": {
+      "title": "Habilitats"
+    },
+    "resume": {
+        "title": "Currículum",
+        "summary1": "Programador Full Stack amb experiència en Java, Spring, React i Angular.",
+        "summary2": "Professional amb àmplia experiència en desenvolupament de programari, gestió de projectes i lideratge tècnic. Especialitzat en tecnologies modernes i metodologies àgils.",
+        "professional_experience": "Experiència Professional",
+        "education": "Educació",
+        "jobs": {
+            "java_full_stack_developer": "Programador JAVA Full Stack",
+            "react_full_stack_developer": "Programador REACT Full Stack",
+            "java_programmer_analyst": "Analista Programador JAVA",
+            "java_programmer": "Programador JAVA",
+            "junior_java_programmer": "Programador Junior JAVA",
+            "aws_course": "Curs Udemy AWS Solutions Architect Associate",
+            "cfgs_it_development": "CFGS – Desenvolupament d'Aplicacions Informàtiques",
+            "tech_bachelor": "Batxillerat Tecnològic"
+        },
+        "experience": {
+            "avantia": {
+                "description": {
+                  "0": "Projecte video-IPTV per al portal de perifèrics a Claro.com.gt.",
+                  "1": "Creació de noves pantalles en Angular i crides de Web-Services.",
+                  "2": "Ampliació centralitzada per al call center de Claro al projecte CRM-Express ESAC.",
+                  "3": "Integració de seguretat JSON Web-Token en serveis web.",
+                  "4": "Gestió de base de dades Oracle i desplegament en servidors Weblogic."
+                },
+                "location": "Avantia, Guatemala - En Remot"
+            },
+            "blue_medical": {
+                "description": {
+                  "0": "Millores al sistema de gestió de reparacions per a Seguros El Roble.",
+                  "1": "Disseny i desenvolupament amb ReactJS, NodeJS i ECMAScript9.",
+                  "2": "Creació de mockups a WordPress i disseny amb Bootstrap.",
+                  "3": "Desenvolupament de components en React i gestió d'estat."
+                },
+                "location": "Blue Medical, Guatemala - En Remot"
+            },
+            "itligencia": {
+                "description": {
+                  "0": "Millores per al sistema informàtic del MP Sicomp 2.",
+                  "1": "Migració de tecnologies com JSF 1.2 a 2.2 i millores de rendiment.",
+                  "2": "Supervisió de 3 programadors i delegació de tasques."
+                },
+                "location": "ITLigencia, Guatemala - Presencial"
+            },
+            "sm2_baleares": {
+                "description": {
+                  "0": "Desenvolupament d’un motor de regles parametritzable per a Barceló Viajes.",
+                  "1": "Creació de webservices i connexions segures amb signatura electrònica.",
+                  "2": "Integració de passarel·les de pagament i millora de rendiment amb memòria cau."
+                },
+                "location": "SM2 Baleares, Espanya - Presencial"
+            },
+            "tenea": {
+                "description": {
+                  "0": "Creació de Web Services en Java per a Hewlett Packard.",
+                  "1": "Desenvolupament de serveis utilitzant Hibernate, Spring i Struts."
+                },
+                "location": "Tenea Tecnologies, Espanya - Presencial"
+            },
+            "ibertech": {
+                "description": {
+                  "0": "Desenvolupament del projecte Zeus per a Gas Natural Fenosa.",
+                  "1": "Migració de pantalles de Power Builder a Flex."
+                },
+                "location": "IBERTECH, Espanya - Presencial"
+            },
+            "yes_sistemas": {
+                "description": {
+                  "0": "Manteniment d’aplicacions Java i generació de documents PDF.",
+                  "1": "Creació de pàgines web en PHP i ASP.NET."
+                },
+                "location": "YES Sistemas, Espanya - Presencial"
+            },
+            "castinfo": {
+                "description": {
+                  "0": "Migració d’aplicacions d’iPlanet a WebSphere.",
+                  "1": "Correctius i evolutius d’aplicacions web en Java."
+                },
+                "location": "CASTINFO, Espanya - Presencial"
+            }
+        },
+        "education_items": {
+            "aws_course": {
+                "title": "Curs Udemy AWS Solutions Architect Associate",
+                "description": "Curs de 33 hores per a la certificació com a Solutions Architect Associate d’AWS.",
+                "location": "Udemy.com"
+            },
+            "cfgs_it_development": {
+                "title": "CFGS – Desenvolupament d’Aplicacions Informàtiques",
+                "description": "Formació en desenvolupament d’aplicacions informàtiques.",
+                "location": "Estudis Superiors María Auxiliadora, Barcelona, Espanya"
+            },
+            "tech_bachelor": {
+                "title": "Batxillerat Tecnològic",
+                "description": "Estudis de batxillerat amb enfocament en tecnologia.",
+                "location": "Salesians Sant Vicenç dels Horts, Barcelona, Espanya"
+            }
+        }
+    },
+    "portfolio": {
+      "title": "Projectes",
+      "description": "Descobreix els meus projectes, on transformo idees en solucions innovadores amb creativitat i tecnologia.",
+      "filters": {
+        "all": "Tots",
+        "app": "Aplicació",
+        "java": "Java",
+        "python": "Python",
+        "aws": "AWS"
+      },
+      "web_portfolio_details": {
+        "infoTitle": "Informació del Projecte",
+        "build": {
+          "pageTitle": "Detalls Construcció Portafoli",
+          "breadcrumb": "Detalls Construcció Portafoli",
+          "altSite": "Captura de Pantalla del Portafoli",
+          "altArch": "Diagrama d’Arquitectura AWS",
+          "altStructure": "Estructura de Fitxers del Projecte",
+          "altConsole": "Captura de Consola AWS",
+          "categoryLabel": "Categoria",
+          "categoryValue": "Desenvolupament Web & Cloud / Serverless",
+          "clientLabel": "Client",
+          "clientValue": "Projecte Personal",
+          "dateLabel": "Data Projecte",
+          "dateValue": "Abril, 2025",
+          "urlLabel": "URL Projecte",
+          "repoFrontendLabel": "Repositori Frontend (App)",
+          "repoInfraLabel": "Repositori Infra (Terraform)",
+          "title": "Construint un Portafoli Serverless a AWS amb Terraform",
+          "descObjective": "L’objectiu principal va ser crear un portafoli personal modern, ràpid, segur, escalable i eficient en costos, utilitzant serveis serverless d’AWS i gestionat com a Infraestructura com a Codi (IaC).",
+          "frontendTitle": "Frontend",
+          "descFrontend": "Basat en la plantilla iPortfolio (BootstrapMade) usant Bootstrap 5, HTML, CSS i JavaScript. Les característiques inclouen disseny responsiu, internacionalització (i18n) basada en JavaScript, càrrega dinàmica de l’encapçalament compartit i enviament del formulari de contacte a través d’API. Allotjat com a lloc web estàtic a AWS S3. El desplegament és actualment manual mitjançant `aws s3 sync`, amb l’automatització CI/CD planificada com a pròxim pas.",
+          "backendTitle": "Backend (API Contacte)",
+          "descBackend": "Una API RESTful serverless gestiona els enviaments del formulari de contacte. Construïda amb AWS API Gateway (HTTP API) que activa una funció AWS Lambda escrita en Python. La funció Lambda valida les dades d’entrada i usa AWS SES (Simple Email Service) per enviar notificacions per correu electrònic. Això demostra la integració frontend-backend en un context serverless.",
+          "infraTitle": "Infraestructura i Desplegament",
+          "descInfra": "Tota la infraestructura d’AWS (S3, CloudFront, OAC, Lambda, API Gateway, Rols/Polítiques IAM, Identitat/Permisos SES) es defineix i gestiona usant Terraform, promovent la consistència i el control de versions (IaC). El codi d’infraestructura resideix en un repositori separat del codi de l’aplicació, seguint les millors pràctiques per a la separació de responsabilitats. CloudFront proporciona memòria cau CDN, HTTPS i accés segur al bucket S3 privat mitjançant Origin Access Control (OAC).",
+          "learningsTitle": "Aprenentatges Clau i Reptes",
+          "descLearnings": "Aquest projecte va implicar aprendre i superar reptes relacionats amb la configuració de CloudFront OAC, l’abast correcte dels permisos d’IAM per a Lambda i SES, la depuració de funcions serverless usant CloudWatch Logs i la gestió de l’estat de la infraestructura amb Terraform. Va servir com a experiència pràctica en la construcció i desplegament d’una aplicació serverless full-stack a AWS.",
+          "wikiAppLabel": "Wiki del Projecte",
+          "wikiInfraLabel": "Wiki d’Infraestructura"
+        }
+      },
+      "webPortfolio": {
+          "title": "Portafoli Web",
+          "description": "Aquest mateix lloc web tal com es construeix a AWS"
+      }      
+    },
+    "contact": {
+      "title": "Contacte",
+      "intro1": "Preparat per col·laborar o tens alguna pregunta?",
+      "intro2": "No dubtis a contactar-me! Sempre estic obert a noves oportunitats, projectes emocionants o simplement xerrar sobre idees. Espero el teu missatge!",
+      "address": "Adreça",
+      "call_us": "Truca’ns",
+      "email_us": "Escriu-nos",
+      "form": { 
+          "yourName": "El teu Nom",
+          "yourEmail": "El teu Correu",
+          "subject": "Assumpte",
+          "message": "Missatge",
+          "loading": "Carregant",
+          "errorMessage": "Error en enviar el missatge. Si us plau, intenta-ho de nou.",
+          "sentMessage": "El teu missatge ha estat enviat. Gràcies!",
+          "sendButton": "Enviar Missatge"
+      }
+    },
+    "footer": {
+      "copyright": "© Drets d’autor",
+      "all_rights_reserved": "Tots els drets reservats",
+      "designed_by": "Dissenyat per"
+    }
+}

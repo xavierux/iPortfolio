@@ -898,6 +898,8 @@ section,
   font-size: 16px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.8);
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .portfolio .portfolio-content .portfolio-info .preview-link,
@@ -1305,6 +1307,14 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+
+.language-icons a {
+  margin: 0 5px;
+  font-size: 1.5em;
+}
+.language-icons a:hover {
+  opacity: 0.7;
 }
 
 /*--------------------------------------------------------------

@@ -24,8 +24,28 @@
       <li><a href="/index.html#contact"><i class="bi bi-envelope navicon"></i><span data-i18n="nav.contact">Contact</span></a></li>
     </ul>
   </nav>
-  <select onchange="setLanguage(this.value)">
-    <option value="en">English</option>
-    <option value="es">Español</option>
-  </select>
+  
+  <div class="language-icons text-center">
+    <a href="#" onclick="changeLanguage('en', event)" title="English">
+      <svg width="30" height="30" viewBox="0 0 30 30" class="lang-icon">
+        <!--circle cx="15" cy="15" r="14" fill="#0078D4"/-->
+        <circle cx="15" cy="15" r="14" />
+        <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#FFFFFF" font-size="12">EN</text>
+      </svg>
+    </a>
+    <a href="#" onclick="changeLanguage('es', event)" title="Español">
+      <svg width="30" height="30" viewBox="0 0 30 30" class="lang-icon">
+        <!--circle cx="15" cy="15" r="14" fill="#CE1126"/-->
+        <circle cx="15" cy="15" r="14" />
+        <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#FFFFFF" font-size="12">ES</text>
+      </svg>
+    </a>
+    <a href="#" onclick="changeLanguage('ca', event)" title="Català">
+      <svg width="30" height="30" viewBox="0 0 30 30" class="lang-icon">
+        <!--circle cx="15" cy="15" r="14" fill="#FFD700"/-->
+        <circle cx="15" cy="15" r="14" />
+        <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#FFFFFF" font-size="12">CA</text>
+      </svg>
+    </a>
+  </div>
 </header>

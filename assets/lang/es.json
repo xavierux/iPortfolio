@@ -14,7 +14,7 @@
     "about": {
       "title": "Acerca de",
       "description": "Profesional con amplia experiencia en desarrollo de software, gestión de proyectos y liderazgo técnico. Especializado en tecnologías modernas y metodologías ágiles.",
-      "role": "Desarrollador Backend Senior",
+      "role": "Desarrollador FullStack",
       "birthday": "Cumpleaños",
       "website": "Sitio web",
       "phone": "Teléfono",
@@ -169,7 +169,11 @@
           "wikiAppLabel": "Wiki del Proyecto",
           "wikiInfraLabel": "Wiki de Infraestructura"
         }
-      }
+      },
+      "webPortfolio": {
+        "title": "Portafolio Web",
+        "description": "Este mismo sitio web tal como se construye en AWS"
+      }      
     },
     "contact": {
       "title": "Contacto",

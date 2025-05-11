@@ -169,7 +169,11 @@
           "wikiAppLabel": "Project Wiki",
           "wikiInfraLabel": "Infrastructure Wiki"
         }
-      }
+      },
+      "webPortfolio": {
+        "title": "Web Portfolio",
+        "description": "This same website as it is built on AWS"
+      }      
     },
     "contact": {
       "title": "Contact",

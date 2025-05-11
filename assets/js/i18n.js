@@ -1,7 +1,7 @@
 // i18n.js
 async function loadLanguage(lang = 'en') {
   try {
-    const response = await fetch(`assets/lang/${lang}.json`);
+    const response = await fetch(`/assets/lang/${lang}.json`);
     const translations = await response.json();
     applyTranslations(translations);
   } catch (error) {
@@ -45,6 +45,12 @@ function getNestedValue(obj, key) {
 function setLanguage(lang) {
   localStorage.setItem("language", lang); // Save the selected language
   loadLanguage(lang);
+}
+
+// New function to handle click events
+function changeLanguage(lang, event) {
+  event.preventDefault(); // Prevent default link behavior (scroll to top)
+  setLanguage(lang); // Change the language
 }
 
 // Load language from localStorage or default to English
